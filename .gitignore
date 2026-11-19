@@ -61,3 +61,24 @@ wandb/
 5 Custom Datasets/test/*
 !5 Custom Datasets/train/README.md
 !5 Custom Datasets/test/README.md
+
+# Local review folders
+.review-archive/
+[Rr]eview/
+[Rr]eviews/
+[0-9]* [Rr]eview/
+[0-9]* [Rr]eviews/
+
+# Local textbooks and e-books
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.djvu
+**/[Bb]ook/**/*.pdf
+**/[Bb]ooks/**/*.pdf
+**/[Tt]extbook/**/*.pdf
+**/[Tt]extbooks/**/*.pdf
+
+# Local tool outputs
+.jupyter/
